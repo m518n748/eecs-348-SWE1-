@@ -4,7 +4,7 @@ int main() {
 char str[100];
 int i, len;
 printf("Enter a string: ");
-fgets(str);
+gets(str);
 len = strlen(str);
 for (i = 0; i < len; i++) {
 if (str[i] >= 'a' && str[i] <= 'z') {
