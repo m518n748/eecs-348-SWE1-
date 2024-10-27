@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Matthew's Practice 2</title>
+    <!--css for border of text-->
+    <style>
+        p {
+            border: 2px solid black;
+            padding: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Matthew's Practice 2</h1>
+
+    <p id="beowulfText"> 
+        The first few lines of Beowulf<br>
+        <br />
+        HWÆT WE GAR-DENA IN GEARDAGUM.<br>	
+        þeod-cyninga þrym gefrunon.<br>
+        Hu ða æþelingas ellen fremedon!<br>
+        Oft Scyld Scefing sceaþena þreatum<br>	
+        monegum mægþum meodosetla ofteah,<br>
+        egsode eorl, syððan ærest wearð<br>
+        feasceaft funden; He þæs frofre gebad,<br>	
+        weox under wolcnum, weorðmyndum þah,<br>
+        oð þæt him æghwylc þara ymbsittendra<br>
+    </p>
+
+    <h3>Change the color and border of the text:</h3> 
+    
+    <!--color input-->
+    <label for="R">Red:</label>
+    <input type="number" id="R" name="Red" min="0" max="255" value="0">
+    <label for="G">Green:</label>
+    <input type="number" id="G" name="Green" min="0" max="255" value="0">
+    <label for="B">Blue:</label>
+    <input type="number" id="B" name="Blue" min="0" max="255" value="0">
+    
+    <br><br>
+
+    <!--border width input-->
+    <label for="borderWidth">Border Width (px):</label>
+    <input type="number" id="borderWidth" name="borderWidth" min="0" max="20" value="2">
+
+    <br><br>
+
+    <!--javascript file reference-->
+    <script src="practice2script.js"></script>
+
+</body>
+</html>
